@@ -91,7 +91,7 @@ BASE_DIR = Path(__file__).resolve().parent
 NOVA_FILE = BASE_DIR / "Nova_Part-A.xlsx"
 
 DEFAULT_MODEL_DIR = (
-    BASE_DIR / "POLY2_IV_V9_4_INDUSTRIAL_VALIDATION\\V94_FROZEN_PRODUCTION_MODEL"
+    BASE_DIR / "V94_FROZEN_PRODUCTION_MODEL"
 )
 
 # Allow the user to point to another folder without changing code.
