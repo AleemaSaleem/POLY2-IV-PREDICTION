@@ -1,0 +1,76 @@
+{
+  "v94_accuracy": [
+    {
+      "N": 82,
+      "MAE": 0.005774032589475818,
+      "RMSE": 0.00695766477895429,
+      "R2": 0.16158742504849444,
+      "BIAS": 0.001230045876045673,
+      "P50_ABS_ERROR": 0.004944538094525386,
+      "P90_ABS_ERROR": 0.011305549759058222,
+      "P95_ABS_ERROR": 0.012017562259420207,
+      "P99_ABS_ERROR": 0.01493247562576366,
+      "MAX_ABS_ERROR": 0.01641762066768737,
+      "PCT_WITHIN_0.005": 50.0,
+      "PCT_WITHIN_0.008": 69.51219512195121,
+      "PCT_WITHIN_0.010": 81.70731707317073,
+      "PCT_WITHIN_0.015": 98.78048780487805
+    }
+  ],
+  "v94_industrial_headline": [
+    {
+      "MODEL": "V9.3_TRANSITION_AWARE",
+      "INDUSTRIAL_STATUS": "CANDIDATE PRODUCTION MODEL \u2014 VALIDATION REQUIRED",
+      "IV_ACCEPTANCE_TOLERANCE": 0.008,
+      "FINAL_TEST_N": 82,
+      "MAE": 0.005774032589475818,
+      "P95_ABS_ERROR": 0.012017562259420207,
+      "MAX_ABS_ERROR": 0.01641762066768737,
+      "PCT_WITHIN_0_008": 69.51219512195121,
+      "EMPIRICAL_CONFIDENCE_ABS_OFFSET": 0.0199453526417301,
+      "V93_DEVELOPMENT_GATE_PASS": true,
+      "SEPTEMBER_EXCLUDED": true,
+      "MODEL_FROZEN": true,
+      "FINAL_TEST_FROZEN": true,
+      "NEXT_REQUIRED_STEP": "Independent future plant validation / shadow-mode deployment"
+    }
+  ],
+  "v94_industrial_gate": [
+    {
+      "GATE": "Accuracy (\u00b10.008 IV)",
+      "STATUS": "REPORTED \u2014 REVIEW AGAINST PLANT SPECIFICATION"
+    },
+    {
+      "GATE": "Chronological stability",
+      "STATUS": "REPORTED \u2014 SEE REGIME/WALK-FORWARD RESULTS"
+    },
+    {
+      "GATE": "Transition robustness",
+      "STATUS": "REPORTED \u2014 SEE BEFORE/DURING/RECOVERY/STABLE"
+    },
+    {
+      "GATE": "RT robustness",
+      "STATUS": "REPORTED WHERE RT FEATURES AVAILABLE"
+    },
+    {
+      "GATE": "DCS quality",
+      "STATUS": "AVAILABLE"
+    },
+    {
+      "GATE": "OOD / support detection",
+      "STATUS": "AVAILABLE"
+    },
+    {
+      "GATE": "Confidence estimation",
+      "STATUS": "AVAILABLE \u2014 EMPIRICAL OOF BAND"
+    },
+    {
+      "GATE": "Prediction stability",
+      "STATUS": "AVAILABLE"
+    },
+    {
+      "GATE": "Independent future validation",
+      "STATUS": "REQUIRED"
+    }
+  ]
+}

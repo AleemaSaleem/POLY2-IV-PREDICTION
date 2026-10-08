@@ -1,0 +1,32 @@
+{
+  "model_version": "V9.4_FROZEN_CANDIDATE",
+  "candidate_origin": "V9.3_TRANSITION_AWARE",
+  "algorithm": "HistGradientBoosting",
+  "hyperparameters": {
+    "l2_regularization": 1.0,
+    "learning_rate": 0.03,
+    "max_iter": 250,
+    "max_leaf_nodes": 7,
+    "min_samples_leaf": 10
+  },
+  "base_feature_count": 40,
+  "engineered_feature_count": 16,
+  "total_model_features": 56,
+  "development_rows": 459,
+  "final_test_rows": 82,
+  "development_period_start": "2026-03-10 00:01:00",
+  "development_period_end": "2026-08-04 00:00:00",
+  "final_test_period_start": "2026-08-04 08:00:01",
+  "final_test_period_end": "2026-08-31 16:00:00",
+  "september_excluded": true,
+  "final_test_frozen": true,
+  "target_derived_features_used": false,
+  "target_derived_low_iv_flag_used": false,
+  "primary_iv_acceptance_threshold": 0.008,
+  "model_fit_timestamp_utc": "2026-10-08T05:37:50.651289+00:00",
+  "python_version": "3.13.15",
+  "pandas_version": "3.0.2",
+  "numpy_version": "2.5.3",
+  "scikit_learn_version": "1.6.1",
+  "joblib_version": "1.6.0"
+}

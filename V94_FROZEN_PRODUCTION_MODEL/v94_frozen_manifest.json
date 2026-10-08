@@ -1,0 +1,31 @@
+{
+  "package": "POLY2_IV_V9_4_FROZEN_PRODUCTION_MODEL",
+  "model_version": "V9.4_FROZEN_CANDIDATE",
+  "candidate_origin": "V9.3_TRANSITION_AWARE",
+  "model_file": "v94_candidate_model.joblib",
+  "model_sha256": "2671d8106c72c46e51277615ea4e17a180d36ef28c83f5a79de0efa7f2b6f74f",
+  "algorithm": "HistGradientBoosting",
+  "hyperparameters": {
+    "l2_regularization": 1.0,
+    "learning_rate": 0.03,
+    "max_iter": 250,
+    "max_leaf_nodes": 7,
+    "min_samples_leaf": 10
+  },
+  "model_feature_count": 56,
+  "base_features": 40,
+  "engineered_features": 16,
+  "development_rows": 459,
+  "final_test_rows": 82,
+  "final_test_frozen": true,
+  "september_excluded": true,
+  "target_derived_features_used": false,
+  "primary_iv_acceptance_threshold": 0.008,
+  "prediction_jump_threshold": 0.008,
+  "confidence_level": 0.9,
+  "confidence_abs_error_offset": 0.0199453526417301,
+  "ood_method": "development-frozen median/IQR robust distance",
+  "transition_high_threshold": 1.2372379376582343,
+  "fit_status": "ALREADY_FITTED_MODEL_SAVED_WITHOUT_RETRAINING",
+  "future_validation_rule": "Load this exact package; do not refit or tune on future validation data."
+}

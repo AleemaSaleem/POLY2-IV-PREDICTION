@@ -1,0 +1,12 @@
+{
+  "iv_acceptance_threshold": 0.008,
+  "confidence_level": 0.9,
+  "confidence_abs_error_offset": 0.0199453526417301,
+  "ood_caution_z": 2.5,
+  "ood_out_z": 3.5,
+  "stale_repeat_limit": 4,
+  "timestamp_gap_hours": 1.0,
+  "prediction_jump_limit": 0.008,
+  "transition_high_threshold": 1.2372379376582343,
+  "stable_transition_threshold": 0.7558024833251622
+}

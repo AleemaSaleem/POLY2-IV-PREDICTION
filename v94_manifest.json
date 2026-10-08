@@ -1,0 +1,25 @@
+{
+  "notebook": "POLY2_IV_PREDICTION_V9_4_INDUSTRIAL_VALIDATION_PRODUCTION_READINESS_PRESEP",
+  "candidate_model": "V9.3_TRANSITION_AWARE",
+  "model_algorithm": "HistGradientBoosting",
+  "frozen_hyperparameters": {
+    "l2_regularization": 1.0,
+    "learning_rate": 0.03,
+    "max_iter": 250,
+    "max_leaf_nodes": 7,
+    "min_samples_leaf": 10
+  },
+  "base_features": 40,
+  "engineered_features": 16,
+  "development_rows": 459,
+  "final_test_rows": 82,
+  "final_test_frozen": true,
+  "september_excluded": true,
+  "target_derived_features_used": false,
+  "primary_iv_acceptance_threshold": 0.008,
+  "confidence_method": "chronological out-of-fold empirical absolute-error band",
+  "ood_method": "development-frozen robust median/IQR distance",
+  "prediction_jump_threshold": 0.008,
+  "status": "CANDIDATE PRODUCTION MODEL \u2014 VALIDATION REQUIRED",
+  "independent_future_validation_required": true
+}
